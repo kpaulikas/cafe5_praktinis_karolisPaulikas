@@ -12,8 +12,7 @@ The app considers the following member details:
 
 The app uses MongoDB for data storage and retrieval.
 
-Installation
-
+Installation:
 To install and run the app, follow these steps:
 
 1. Clone the repository to your local machine.
