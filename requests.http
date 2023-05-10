@@ -1,0 +1,35 @@
+### Get all members
+GET http://localhost:5000/api/members
+Content-Type: application/json
+
+### Create a new member
+POST http://localhost:5000/api/members
+Content-Type: application/json
+
+{
+  "firstName": "Jane",
+  "surname": "Doe",
+  "email": "jane@example.com",
+  "membershipStartDate": "2022-05-01",
+  "membershipEndDate": "2023-04-30"
+}
+
+### Get a member by ID
+GET http://localhost:5000/api/members/64596abba69d26238f6e556e
+Content-Type: application/json
+
+### Update a member by ID
+PUT http://localhost:5000/api/members/64596ac5a69d26238f6e5570
+Content-Type: application/json
+
+{
+  "firstName": "Emilia",
+  "surname": "Doe",
+  "email": "emiliadoe@example.com",
+  "membershipStartDate": "2021-05-01",
+  "membershipEndDate": "2024-04-30"
+}
+
+### Delete a member by ID
+DELETE http://localhost:5000/api/members/645ac248c6c2f66f50b790bf
+Content-Type: application/json
