@@ -23,6 +23,7 @@ To install and run the app, follow these steps:
 5. Update the .env file in the project directory and add the following environment variables:
 
 PORT=your-desired-port
+
 MONGODB_URI=your-mongodb-uri-here
 
 6. Run the app with the command "npm run build".
